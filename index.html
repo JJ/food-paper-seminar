@@ -45,13 +45,81 @@
 
 <section data-background='https://i.imgflip.com/2u9mtr.jpg'></section>
 
-<section><h1>Crear recetas originales</h1>
+<section data-background='https://farm8.staticflickr.com/7825/33271085768_21aa9df786_k_d.jpg'><h1>Crear recetas originales</h1>
   <h2 class='fragment'>Estudiar equivalencias de
-    ingredientes.</h2></section>
+    ingredientes.</h2>
+  <aside class='notes'>Este es mi chile con carne, que usa todo tipo
+  de ingredientes locales: pimientos del padrón en vez de chile con
+  carne, queso manchego en vez de cheddar, pimentón en vez de chile en
+  polvo... En este caso no es que sea un gran vuelo de la imaginación,
+  pero sería interesante llevarlo más allá. ¿Curry con carne? ¿Chile
+  con berenjenas? ¿Miso con carne? Todos los ingredientes (o casi
+    todos) son del Lidl.</aside>
+</section>
 
-<section><h1>Identificar especificidad de ingredientes</h1>
-  <h2 class='fragment'>Crear algoritmos de transformación</h2></section>
-</div>
+<section data-background='https://farm8.staticflickr.com/7849/40203659003_66360c68ae_k_d.jpg'><h1>Identificar especificidad de ingredientes</h1>
+  <h2 class='fragment'>Crear algoritmos de
+    transformación</h2></section>
+
+<section data-background='img/yummly.png'><h1>¿De dónde obtiene los datos?</h1>
+  <h2 class='fragment'>De Yummly</h2>
+</section>
+
+<section>
+  <h1>Clasificando por países</h1>
+  <img
+  src='https://www.frontiersin.org/files/Articles/258159/fict-05-00014-HTML/image_m/fict-05-00014-g002.jpg'
+  alt='Red neuronal para clasificar por países'></section>
+
+  <section
+    data-background='https://farm2.staticflickr.com/1757/41682514515_820ebc0336_k_d.jpg'><h1>Pero
+    hay que transformar</h1>
+    <aside class='notes'>Mac and cheese and chorizo, un clásico de la
+      codina de Friends adaptado al gusto de aquí.</aside></section>
+
+        </section>
+
+        <section data-background='https://farm1.staticflickr.com/886/26492154807_2d378194fe_k_d.jpg'
+          ><h1>Recipe 2 vec</h1>
+          <h2 class='fragment'>Word2vec usando ingredientes.</h2>
+
+          <aside class='notes'>Todas las recetas tienen una serie de
+        ingredientes, que se usan en este caso como un "documento" del
+        cual se extraen las "palabras". Con esto, cada ingrediente va
+            a tener una representación única, un vector de 100
+            dimensiones, con el que se puede operar.</aside>
+        </section>
+
+        <section data-background='https://farm5.staticflickr.com/4620/39774738164_dc260234b4_k_d.jpg'><h1>Aritmética de recetas</h1>
+          <h2 class='fragment'>Chorizo - (cocina) española +
+            japonesa</h2>
+          <h2 class='fragment'><math id="M5"><mtable columnalign="left"><mtr><mtd><mstyle displaystyle="true"><munder class="msub"><mrow><mo mathsize="10.5pt" mathcolor="black">∑</mo></mrow><mrow><mi mathsize="10.5pt" mathcolor="black">r</mi><mo mathsize="10.5pt" mathcolor="black">∈</mo><mi mathsize="10.5pt" mathcolor="black">R</mi></mrow></munder></mstyle><mstyle displaystyle="true"><munder class="msub"><mrow><mo mathsize="10.5pt" mathcolor="black">∑</mo></mrow><mrow><msub><mrow><mi mathsize="10.5pt" mathcolor="black">w</mi></mrow><mrow><mi mathsize="10.5pt" mathcolor="black">i</mi></mrow></msub><mo mathsize="10.5pt" mathcolor="black">∈</mo><mi mathsize="10.5pt" mathcolor="black">r</mi></mrow></munder></mstyle><mrow><mo stretchy="true">(</mo><mrow><mo class="qopname">log</mo><mi mathsize="10.5pt" mathcolor="black">P</mi><mrow><mo stretchy="false">(</mo><mrow><msub><mrow><mi mathsize="10.5pt" mathcolor="black">w</mi></mrow><mrow><mi mathsize="10.5pt" mathcolor="black">i</mi></mrow></msub><mo stretchy="false" mathsize="10.5pt" mathcolor="black">|</mo><msub><mrow><mi mathsize="10.5pt" mathcolor="black">c</mi></mrow><mrow><mi mathsize="10.5pt" mathcolor="black">r</mi></mrow></msub></mrow><mo stretchy="false">)</mo></mrow><mo mathsize="10.5pt" mathcolor="black">+</mo><mo class="qopname">log</mo><mi mathsize="10.5pt" mathcolor="black">P</mi><mrow><mo stretchy="false">(</mo><mrow><msub><mrow><mi mathsize="10.5pt" mathcolor="black">c</mi></mrow><mrow><mi mathsize="10.5pt" mathcolor="black">r</mi></mrow></msub><mo stretchy="false" mathsize="10.5pt" mathcolor="black">|</mo><msub><mrow><mi mathsize="10.5pt" mathcolor="black">w</mi></mrow><mrow><mi mathsize="10.5pt" mathcolor="black">i</mi></mrow></msub></mrow><mo stretchy="false">)</mo></mrow><mo mathsize="10.5pt" mathcolor="black">+</mo><mstyle displaystyle="true"><munder class="msub"><mrow><mo mathsize="10.5pt" mathcolor="black">∑</mo></mrow><mrow><mi mathsize="10.5pt" mathcolor="black">j</mi><mo mathsize="10.5pt" mathcolor="black">≠</mo><mi mathsize="10.5pt" mathcolor="black">i</mi></mrow></munder></mstyle><mo class="qopname">log</mo><mi mathsize="10.5pt" mathcolor="black">P</mi><mrow><mo stretchy="false">(</mo><mrow><msub><mrow><mi mathsize="10.5pt" mathcolor="black">w</mi></mrow><mrow><mi mathsize="10.5pt" mathcolor="black">j</mi></mrow></msub><mo stretchy="false" mathsize="10.5pt" mathcolor="black">|</mo><msub><mrow><mi mathsize="10.5pt" mathcolor="black">w</mi></mrow><mrow><mi mathsize="10.5pt" mathcolor="black">i</mi></mrow></msub></mrow><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="true">)</mo></mrow></mtd><mtd><mstyle class="text" mathsize="10.5pt" mathcolor="black"><mtext>    </mtext></mstyle></mtd></mtr></mtable></math></h2>
+          <aside class='notes'>Esta es la fórmula por la cual se
+          <em>vectoriza un país</em>, donde c_r sería el "vector país"
+          y w_i los vectores de componentes.</aside>
+        </section>
+
+        <section
+          data-background='https://farm8.staticflickr.com/7899/47116908192_8d2a826ae2_k_d.jpg'
+          alt='librería de Calvados'>
+          <h1>Resultado → similitud vectorial</h1>
+          <h2 class='fragment'>Sukiyaki estilo francés.</h2>
+          <img
+          src='https://www.frontiersin.org/files/Articles/258159/fict-05-00014-HTML/image_m/fict-05-00014-g007.jpg'
+          alt='Sukiyaki francés'>
+          <aside class='notes'>Se fueron sustituyendo diferentes
+          ingredientes típicamente japoneses por uno resultado de la
+          aritmética francés. En este caso, <a
+            rhef='https://es.wikipedia.org/wiki/Mirin'>Mirin </a>
+          parece ser un vino de arroz. Se sustituye por un Calvados,
+            que es un aguardiente de manzana. </aside>
+        </section>
+
+        <section><h1>La cocina</h1>
+          <h2 class='fragment'>y sus variantes</h2>
+          <h1>se puede abordar cuantitativamente</h1>
+        </section>
+      </div>
 </div>
 
 <script src="lib/js/head.min.js"></script>
